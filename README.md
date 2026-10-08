@@ -8,9 +8,9 @@ Ce projet personnel est le fruit de ma volonté de concevoir une architecture d'
 
 * **Socle Local (On-Premise) :** Installation et configuration de serveurs cœurs de réseau avec les rôles Active Directory (AD DS), DNS et DHCP.
 * **Sécurité & Gestion de Parc :** Intégration de postes clients (Windows 10) et sécurisation de l'environnement utilisateur via le déploiement de Stratégies de Groupe (GPO).
-* **Haute Disponibilité :** Déploiement d'une topologie multi-contrôleurs de domaine avec réplication bilatérale pour éliminer tout point de défaillance unique (SPOF).
+* **Haute Disponibilité :** Déploiement d'une topologie multi-contrôleurs de domaine avec réplication pour éliminer tout point de défaillance unique (SPOF).
 * **Hybridation Cloud :** Interconnexion de l'annuaire local avec le Cloud public via Microsoft Entra Connect (synchronisation des identités).
-* **Expérience Utilisateur (SSO) :** Configuration du Single Sign-On (avec Password Hash Sync) pour garantir un accès transparent et sécurisé aux ressources Microsoft 365 avec les identifiants locaux.
+* **Expérience Utilisateur (SSO) :** Configuration du SSO pour garantir un accès transparent et sécurisé aux ressources Microsoft 365 avec les identifiants locaux.
 
 ## Technologies & Outils
 
@@ -23,7 +23,7 @@ Ce projet personnel est le fruit de ma volonté de concevoir une architecture d'
 
 Vous trouverez dans ce dépôt :
 
-1. Mon **rapport de projet complet au format PDF** (`Rapport_Infrastructure_Hybride_Mehdi_Mazouz.pdf`), qui inclut le détail de l'architecture, toutes les étapes de configuration, et les preuves visuelles de la synchronisation et de la connexion des utilisateurs.
+1. Mon **rapport de projet complet au format PDF** (`Rapport_Infrastructure_Hybride_Mehdi_Mazouz.pdf`), qui inclut toutes les étapes de configuration, et les preuves visuelles de la synchronisation et de la connexion des utilisateurs.
 
 ---
 Projet réalisé par Mehdi - https://www.linkedin.com/in/mehdi-mazouz-936536205
