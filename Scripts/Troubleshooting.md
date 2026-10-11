@@ -14,7 +14,7 @@ Dans le cadre du déploiement de cette infrastructure, plusieurs défis techniqu
   1. Relève de l'UPN strict généré lors de la synchronisation (ex: `jtest@MehdiMazouz.onmicrosoft.com`).
   2. Modification de l'onglet "Compte" de l'utilisateur dans l'Active Directory local pour standardiser l'identifiant.
   3. Nouvelle tentative de connexion avec le nom d'utilisateur exact, aboutissant au succès de l'authentification grâce au *Password Hash Sync*.
-
+ 
 ## Incident 2 : Non-application d'une Stratégie de Groupe (GPO) sur le client
 
 * **Symptôme :** Après la configuration de la GPO permettant le mappage automatique du lecteur réseau partagé (Lecteur S:), le lecteur n'apparaissait pas dans l'explorateur de fichiers de la machine Windows 10.
